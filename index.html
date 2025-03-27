@@ -6,6 +6,8 @@
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet" type='text/css'>
     <style>
         html {
+            margin: 0;
+            padding: 0;
             scroll-behavior: smooth;
             overflow-x: hidden;
             scrollbar-width: thin;
@@ -15,6 +17,8 @@
         body {
             background: linear-gradient(to left, #ebedee 10%, gray, #ebedee 90%);
 
+            width: 100%;
+            overflow-x: hidden;
             margin: 0;
             padding: 0;
 
@@ -70,9 +74,9 @@
 
         .container {
             background: white;
-            height: 60vh;
+            height: 60dvh;
             transition-duration: 500ms;
-            max-width: 100vh;
+            max-width: 100dvh;
             
             margin: 0.1% auto;
             margin-bottom: 0;
@@ -81,12 +85,12 @@
         }
 
         .container:hover {
-            height: 100vh;
+            height: 100dvh;
         }
 
         #Home:hover {
             background-color: white;
-            height: 60vh;
+            height: 60dvh;
         }
 
         .container h1 {
@@ -98,12 +102,12 @@
         }
 
         .bottom {
-            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 45%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 60%);
 
             position: sticky;
             bottom: -1%;
             width: 100%;
-            height: 6vh;
+            height: 10dvh;
         }
 
         .content {
@@ -197,13 +201,6 @@
             <p>여기는 홈입니다.</p>
             <p>미래 기술들에 대해 설명하고 있습니다.</p>
             <p>웹프로그래밍 4조 과제입니다.</p>
-            <p>홈페이지입니다.</p>
-            <h2>
-                조 소개
-            </h2>
-            <p>
-                뭐시기 뭐시기 어쩌구 저쩌구
-            </p>
         </div>
 
         <div class="content double">
@@ -213,14 +210,6 @@
             <p>홈페이지입니다.</p>
             <h2>이렇게 하면 2개로 나뉩니다</h2>
             <p>논문 같은 느낌으로 글 쓸 수 있음</p>
-            <p>웹프로그래밍 4조 과제입니다.</p>
-            <p>홈페이지입니다.</p>
-            <h2>
-                조 소개
-            </h2>
-            <p>
-                뭐시기 뭐시기 어쩌구 저쩌구
-            </p>
         </div>
     </div>
 
